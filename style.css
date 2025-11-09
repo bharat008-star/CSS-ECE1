@@ -28,7 +28,7 @@ margin: 5px;
  align-content: center;
  } */
 
- .box{
+ /* .box{
 
     font-size: 20px;
     height: 200px;
@@ -63,4 +63,37 @@ margin: 5px;
     color: black;
     background-color: brown;
     
- }
+ } */
+
+ body {
+    font-family: Arial;
+    background-color: lightgray;
+    text-align: center;
+    border: 10px solid black;
+    margin: 20px;
+}
+
+h1 {
+    text-align: left;
+    color: black;
+}
+
+.outer-box {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.inner-box {
+    background-color: blue;
+    color: yellow;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.inner-content {
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
