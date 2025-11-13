@@ -120,7 +120,7 @@ h1 {
 } */
 
 
-
+/* 
 
 
 .container {
@@ -158,4 +158,10 @@ h1 {
     clear: both;          
     font-weight: bold;
     margin-top: 20px;
+} */
+
+
+
+.container{
+   display: flex;
 }
