@@ -164,4 +164,27 @@ h1 {
 
 .container{
    display: flex;
+   height: 600px;
+   width: 800px;
+   background-color: aqua;
+   border: 1px solid black;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-around;
+   /* column-gap: ; 
+    row-gap: ; */
+   /* flex-direction: column; */
+}
+
+.item{
+    height: 200px;
+width: 200px;
+background-color: white;
+border: 1px solid black;
+flex-grow: 1;
+}
+.item3{
+    order: -1;
+    flex-grow: 2;
+    flex-shrink: 1;
 }
